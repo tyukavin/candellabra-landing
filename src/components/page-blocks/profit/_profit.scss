@@ -1,0 +1,31 @@
+.profit {
+  padding: 65px 0 160px;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+      display: flex;
+      align-items: center;
+    }
+
+    &__card {
+      border-radius: 25px;
+      border: 1px solid #000;
+      padding: 44px 35px;
+      margin-left: 35px;
+      width: 280px;
+
+      &-caption {
+        margin-bottom: 33px;
+      }
+
+      .card-price {
+        color: #EFB052;
+        font-size: 32px;
+        font-weight: 700;
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.support {
+  padding: 85px 0 190px;
+
+  &-content {
+    border-radius: 110px;
+    border: 1px solid;
+    padding: 100px 0;
+    padding-left: 620px;
+    position: relative;
+    margin: 140px auto 0;
+    width: 90%;
+
+    &__img {
+      position: absolute;
+      left: 130px;
+      bottom: 45px;
+    }
+
+    &__caption {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 50px;
+      margin-bottom: 14px;
+    }
+
+    &__desc {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    &__art {
+      position: absolute;
+
+      &--one {
+        right: 6%;
+        bottom: 95%;
+      }
+
+      &--two {
+        right: 97%;
+        bottom: 4%;
+      }
+
+      &--three {
+        top: 115%;
+        left: 37%;
+      }
+
+      &--four {
+        left: 95%;
+        bottom: 1%;
+      }
+    }
+  }
+}

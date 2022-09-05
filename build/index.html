@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+  <html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gulp pack for easy html/php markup development">
+  <!-- <link rel="shortcut icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="img/favicons/favicon.webp" type="image/webp">
+  <link rel="shortcut icon" href="img/favicons/favicon.png" type="image/x-icon"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Откройте магазин стильных товаров для дома </title>
+</head>
+
+
+<body>
+  <header class="header">
+  <img src="img/header.jpg" alt="Header">
+</header>
+
+  <main class="main">
+    <section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="hero__content">
+          <div class="hero-caption">
+            <h1 class="title">
+              Откройте магазин <span>стильных</span> товаров для&nbsp;дома
+            </h1>
+            <div class="hero-caption__desc">
+              и&nbsp;зарабатывайте чистыми<br>
+              от&nbsp;250&nbsp;000р в&nbsp;месяц
+            </div>
+          </div>
+          <div class="hero-video">
+            <a href="#" class="hero-video-link">
+              <picture>
+                <source srcset="img/hero-video_2x.webp 2x" type="image/webp">
+                <source srcset="img/hero-video_2x.jpg 2x">
+                <source srcset="img/hero-video.webp" type="image/webp">
+                <img src="img/hero-video.jpg" alt="Candellabra Home">
+              </picture>
+            </a>
+            <div class="hero-video__desc has-arrow">посмотрите видео о Candellabra HOME</div>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <div class="hero-actions__content">
+            <button class="btn btn--primary">Получить финансовую модель</button>
+            <button class="btn btn--secondary">Инвестиции от 3 млн. рублей</button>
+          </div>
+          <div class="hero-actions__desc">
+            оставьте заявку, и&nbsp;получите финансовую модель<br>
+            бизнеса для&nbsp;вашего города
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="safe">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="safe-content">
+          <div class="safe-content__caption">Бизнес с гарантией!</div>
+          <div class="safe-content__desc">
+            Если через 1 год магазин не выйдет на плановые<br>
+            показатели, мы готовый предложить выкуп магазина
+          </div>
+          <div class="safe-content__actions">
+            <a href="#" class="btn btn--xs btn--more">Узнать подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="store">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-head">
+          <h2 class="section-head__title">Наш магазин</h2>
+          <div class="section-head__sub">Он уютный, современный,<br>с прекрасным дизайном</div>
+        </div>
+        <div class="store-content">
+          <div class="store-content__row">
+            <img src="img/store-main.jpg" alt="">
+          </div>
+          <div class="store-content__row">
+            <img src="img/store-1.jpg" alt="">
+            <img src="img/store-2.jpg" alt="">
+            <img src="img/store-3.jpg" alt="">
+          </div>
+        </div>
+        <div class="store__actions">
+          <button class="btn btn--more-xs">посмотреть ещё магазины Candellabra</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="assort">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-head">
+          <h2 class="section-head__title">Ассортимент</h2>
+          <div class="section-head__sub">проблем не будет - он на 90%<br>от российских поставщиков</div>
+        </div>
+        <div class="assort-content"></div>
+        <div class="assort-desc">
+          <div class="assort-desc__item">
+            Текстиль<br>
+            Декор для дома<br>
+            Постельное белье
+          </div>
+          <div class="assort-desc__item">
+            Одеяла и подушки<br>
+            Свечи и диффузоры<br>
+            Настенный декор
+          </div>
+          <div class="assort-desc__item">
+            Освещение<br>
+            Декор ванной комнаты<br>
+            Ковры
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="format">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-head">
+          <h2 class="section-head__title">Расположение<br>и форматы</h2>
+          <div class="section-head__sub">Гибкий выбор концепций</div>
+        </div>
+        <div class="format-content">
+          <div class="format-content__item">
+            <img src="/img/format-1.jpg" alt="">
+            <div class="format-content__caption">В торговом центре</div>
+          </div>
+          <div class="format-content__item">
+            <img src="/img/format-2.jpg" alt="">
+            <div class="format-content__caption">Отдельный магазин</div>
+          </div>
+          <div class="format-content__item">
+            <img src="/img/format-3.jpg" alt="">
+            <div class="format-content__caption">Магазин + кофейня</div>
+          </div>
+        </div>
+        <div class="format-list">
+          <ul>
+            <li>В топовых ТЦ города или<br>центральных проходных улицах</li>
+            <li>Этажность 1 и 2</li>
+          </ul>
+          <ul>
+            <li>Города с населением<br>от 30 тыс. чел (по запросу)</li>
+            <li>Помещения от 15 м<sup>2</sup></li>
+          </ul>
+        </div>
+        <div class="format-quastion">
+          <div class="format-quastion__caption">Появились вопросы?</div>
+          <div class="format-quastion__actions">
+            <button class="btn btn--xs btn--primary">Задать вопрос специалисту</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="benefit">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="benefit-content">
+          <img class="benefit-content__img" src="img/benefit.png" alt="Benefit art">
+          <div class="benefit-content__caption">Почему это выгодно?</div>
+          <div class="benefit-content__desc">
+            почему декор и товары для дома?<br>
+            почему сейчас самое время?
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="leave-brand">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-head section-head--num">
+          <div class="section-head__num">1</div>
+          <div class="section-head__content">
+            <h2 class="section-head__title">Бренды уходят<br>с российского рынка</h2>
+            <div class="section-head__sub">Оставляя пустые помещения, и спрос<br>российского потребителя</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="free-market">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-head section-head--num">
+          <div class="section-head__num">2</div>
+          <div class="section-head__content">
+            <h2 class="section-head__title">Освободился<br>рынок и деньги</h2>
+            <div class="section-head__sub">Все обстоятельства в нашу пользу</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="provider">
+  <div class="provider-slider">
+    <picture class="provider-slider__item">
+      <source srcset="img/provider-1.webp" type="image/webp">
+      <img src="img/provider-1.png" alt="Кружка">
+    </picture>
+
+    <picture class="provider-slider__item">
+      <source srcset="img/provider-2.webp" type="image/webp">
+      <img src="img/provider-2.png" alt="Соломка">
+    </picture>
+
+    <picture class="provider-slider__item">
+      <source srcset="img/provider-3.webp" type="image/webp">
+      <img src="img/provider-3.png" alt="Кружка">
+    </picture>
+
+    <picture class="provider-slider__item">
+      <source srcset="img/provider-4.webp" type="image/webp">
+      <img src="img/provider-4.png" alt="Кофе">
+    </picture>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-head section-head--num">
+          <div class="section-head__num">3</div>
+          <div class="section-head__content">
+            <h2 class="section-head__title">Ещё освободились<br>российские поставщики</h2>
+            <div class="section-head__sub">Мы с радосью подключили их к экосистеме Candellabra</div>
+          </div>
+        </div>
+        <div class="provider-content">
+          <div class="provider-content__item">
+            <div class="provider-content__caption">более<br>358 поставщиков<br>и производителей</div>
+            <div class="provider-content__desc">
+              объединились, чтобы дать<br>
+              рынку стильные и качественные<br>
+              товары для дома
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="best-time">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="best-time-content">
+          <img src="img/best-time.png" alt="" class="best-time-content__img">
+          <div class="best-time-content__caption">
+            Сейчас лучшее время<br>
+            для открытия<br>
+            Candellabra HOME
+          </div>
+          <div class="best-time-content__desc">
+            Оставьте заявку, мы вышлем вам материалы<br>и затем свяжемся для обсуждения деталей
+          </div>
+          <div class="best-time-content__actions">
+            <a href="#" class="btn btn--xs btn--primary">Получить материалы</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="media">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="what">
+          <div class="what__caption">А что такое Candellabra?</div>
+          <div class="what__desc">Какой доход? Что ещё есть?</div>
+        </div>
+        <div class="media-content">
+          <div class="media-content__item">
+            <div class="section-head">
+              <h2 class="section-head__title">Медиа-платформа</h2>
+              <div class="section-head__sub">
+                500 000 человек узнают новости<br>Candellabra каждый день
+              </div>
+            </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th></th>
+                  <th>
+                    <span>подписчики</span>
+                  </th>
+                  <th>
+                    <span>охват чел/мес</span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="img/youtube.png" alt="youtube">
+                  </td>
+                  <td>Youtube</td>
+                  <td>102 000</td>
+                  <td>6,74 млн</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/tiktok.png" alt="tiktok">
+                  </td>
+                  <td>TikTok</td>
+                  <td>210 000</td>
+                  <td>7 млн</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/vk.png" alt="vk">
+                  </td>
+                  <td>Вконтакте</td>
+                  <td>34 600</td>
+                  <td>1,25 млн</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/dzen.png" alt="dzen">
+                  </td>
+                  <td>ЯДзен</td>
+                  <td>5 500</td>
+                  <td>1,8 млн</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/pin.png" alt="pinterest">
+                  </td>
+                  <td>Pinterest</td>
+                  <td>58 000</td>
+                  <td>6,8 млн</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="media-content__item media-content--screens">
+            <img src="img/screen-vk.png" class="img-screen img-screen--vk" alt="screen vk">
+            <img src="img/screen-tiktok.png" class="img-screen img-screen--tiktok" alt="screen tiktok">
+            <img src="img/screen-youtube.png" class="img-screen img-screen--yt" alt="screen youtube">
+          </div>
+        </div>
+        <div class="media-pr">
+          <img src="img/pr.png" alt="" class="media-pr__img">
+          <div class="media-pr__caption">
+            Вам не нужно тратиться<br>на PR и маркетинг - этим<br>занимаемся мы
+          </div>
+          <div class="media-pr__desc">Candellabra - активное медиа для Вашей<br>узнаваемости и увеличения продаж</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="profit">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-head">
+          <h2 class="section-head__title">Прибыльный бизнес</h2>
+          <div class="section-head__sub">средняя маржа на товар 45%<br>средний чек 3500 руб</div>
+        </div>
+        <div class="profit-content">
+          <div class="profit-content__item">
+            <img src="img/profit-1.png" alt="" class="profit-content__img">
+            <div class="profit-content__card">
+              <div class="profit-content__card-caption">Розничная цена<br>1650 руб.</div>
+              <div class="profit-content__card-price">
+                Доход с 1 свечи<br>
+                <div class="card-price">743 руб.</div>
+              </div>
+            </div>
+          </div>
+          <div class="profit-content__item">
+            <img src="img/profit-2.png" alt="" class="profit-content__img">
+            <div class="profit-content__card">
+              <div class="profit-content__card-caption">Розничная цена<br>14 750 руб.</div>
+              <div class="profit-content__card-price">
+                Доход с 1 лампы<br>
+                <div class="card-price">6 638 руб.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="platform">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-head">
+          <h2 class="section-head__title">IT - платформа</h2>
+          <div class="section-head__sub">Не переживайте, у нас автоматизированная<br>система взаимодействия</div>
+        </div>
+
+        <div class="platform-content">
+          <div class="platform-content__wrap">
+            <div class="platform-list">
+              <div class="platform-list__item">
+                <div class="platform-list__circle platform-list__circle--yellow"></div>
+                <div class="platform-list__caption">Личный<br>кабинет</div>
+              </div>
+
+              <div class="platform-list__item">
+                <div class="platform-list__circle platform-list__circle--yellow"></div>
+                <div class="platform-list__caption">Магазин</div>
+              </div>
+
+              <div class="platform-list__item">
+                <div class="platform-list__circle platform-list__circle--yellow"></div>
+                <div class="platform-list__caption">Поставщики,<br>контрагенты</div>
+              </div>
+
+              <div class="platform-list__item">
+                <div class="platform-list__circle platform-list__circle--green"></div>
+                <div class="platform-list__caption">База<br>остатков</div>
+              </div>
+            </div>
+
+            <div class="platform-list">
+              <div class="platform-list__item">
+                <div class="platform-list__circle platform-list__circle--yellow"></div>
+                <div class="platform-list__caption">CRM<br>система</div>
+              </div>
+
+              <div class="platform-list__item">
+                <div class="platform-list__circle platform-list__circle--green"></div>
+                <div class="platform-list__caption">Логистика</div>
+              </div>
+
+              <div class="platform-list__item">
+                <div class="platform-list__circle platform-list__circle--yellow"></div>
+                <div class="platform-list__caption">Центральная<br>компания</div>
+              </div>
+
+              <div class="platform-list__item">
+                <div class="platform-list__circle platform-list__circle--yellow"></div>
+                <div class="platform-list__caption">Склад</div>
+              </div>
+            </div>
+          </div>
+          <picture class="platform-content__img">
+            <source srcset="img/platform-main.webp" type="image/webp">
+            <img src="img/platform-main.png" alt="IT - платформа">
+          </picture>
+        </div>
+
+        <div class="platform-avto">
+          <picture class="platform-avto__img">
+            <source srcset="img/platform-chip.webp" type="image/webp">
+            <img src="img/platform-chip.png" alt="Тысячи отлаженных сценариев">
+          </picture>
+          <div class="platform-avto__caption">
+            Тысячи отлаженных<br>сценариев заменяют<br>1500 человек в секунду
+          </div>
+          <div class="platform-avto__desc">
+            это 75 кабинетов по 20 человек
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="support">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-head">
+          <h2 class="section-head__title">Надежная поддержка<br>от Центральной компании</h2>
+          <div class="section-head__sub">Candellabra.com - берет на себя все ручные процессы<br>от маркетинга до логистики</div>
+        </div>
+        <div class="support-content">
+          <picture class="support-content__img">
+            <source srcset="img/support-main.webp" type="image/webp">
+            <img src="img/support-main.png" alt="Up">
+          </picture>
+          <div class="support-content__caption">
+            Ваша задача<br>
+            наслаждаться бизнесом<br>
+            и зарабатывать деньги
+          </div>
+          <div class="support-content__desc">остальное сделает Центральная компания</div>
+          <img src="img/support-rub-1.png" alt="Ruble" class="support-content__art support-content__art--one">
+          <img src="img/support-rub-2.png" alt="Ruble" class="support-content__art support-content__art--two">
+          <img src="img/support-rub-3.png" alt="Ruble" class="support-content__art support-content__art--three">
+          <img src="img/support-rub-4.png" alt="Ruble" class="support-content__art support-content__art--four">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="dynamic">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-head">
+          <h2 class="section-head__title">Динамический подбор<br>ассортимента</h2>
+          <div class="section-head__sub">т.е. магазин в Москве и магазин в Мурманске<br>будут разные по ассортименту и ценам</div>
+        </div>
+        <div class="dynamic-content">
+          <div class="dynamic-list">
+            <div class="dynamic-list__item">
+              <div class="dynamic-list__img">
+                <picture>
+                  <source srcset="img/dynamic-city.webp" type="image/webp">
+                  <img src="img/dynamic-city.png" alt="Подушка">
+                </picture>
+              </div>
+              <div class="dynamic-list__content">
+                <div class="dynamic-list__caption">
+                  Анализируем<br>область, город, район
+                </div>
+                <div class="dynamic-list__desc">
+                  Развитие города, проходимость, стоимость<br>аренды, численность населения, средний<br>заработок и тд.
+                </div>
+              </div>
+            </div>
+
+            <div class="dynamic-list__item">
+              <div class="dynamic-list__img">
+                <picture>
+                  <source srcset="img/dynamic-price.webp" type="image/webp">
+                  <img src="img/dynamic-price.png" alt="Подушка">
+                </picture>
+              </div>
+              <div class="dynamic-list__content">
+                <div class="dynamic-list__caption">
+                  Выбираем подходящий<br>ассортимент и цену
+                </div>
+                <div class="dynamic-list__desc">
+                  Огромный ассортимент позволяет подбирать<br>товар по ценовым категориям без потери<br>товарных групп
+                </div>
+              </div>
+            </div>
+
+            <div class="dynamic-list__item">
+              <div class="dynamic-list__img">
+                <picture>
+                  <source srcset="img/dynamic-store.webp" type="image/webp">
+                  <img src="img/dynamic-store.png" alt="Подушка">
+                </picture>
+              </div>
+              <div class="dynamic-list__content">
+                <div class="dynamic-list__caption">
+                  Открываем<br>магазин
+                </div>
+                <div class="dynamic-list__desc">
+                  Проводим ремонтные работы, устанавливаем<br>оборудование, оформляем все документы
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="dynamic-products">
+
+            <div class="dynamic-products__item">
+              <picture>
+                <source srcset="img/dyn-product-1.webp" type="image/webp">
+                <img src="img/dyn-product-1.png" alt="Подушка">
+              </picture>
+              <div class="dynamic-products__price">
+                <span>2500р</span>
+              </div>
+            </div>
+
+            <div class="dynamic-products__item">
+              <picture>
+                <source srcset="img/dyn-product-2.webp" type="image/webp">
+                <img src="img/dyn-product-2.png" alt="Подушка">
+              </picture>
+              <div class="dynamic-products__price">5100р</div>
+            </div>
+
+            <div class="dynamic-products__item">
+              <picture>
+                <source srcset="img/dyn-product-3.webp" type="image/webp">
+                <img src="img/dyn-product-3.png" alt="Подушка">
+              </picture>
+              <div class="dynamic-products__price">17 300р</div>
+            </div>
+
+            <div class="dynamic-products__item">
+              <picture>
+                <source srcset="img/dyn-product-4.webp" type="image/webp">
+                <img src="img/dyn-product-4.png" alt="Подушка">
+              </picture>
+              <div class="dynamic-products__price">
+                <span>4200р</span>
+              </div>
+            </div>
+
+            <div class="dynamic-products__item">
+              <picture>
+                <source srcset="img/dyn-product-5.webp" type="image/webp">
+                <img src="img/dyn-product-5.png" alt="Подушка">
+              </picture>
+              <div class="dynamic-products__price">980р</div>
+            </div>
+
+            <div class="dynamic-products__item">
+              <picture>
+                <source srcset="img/dyn-product-6.webp" type="image/webp">
+                <img src="img/dyn-product-6.png" alt="Подушка">
+              </picture>
+              <div class="dynamic-products__price">
+                <span>3650р</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dynamic-open">
+          <picture class="dynamic-open__img">
+            <source srcset="img/dyn-open.webp" type="image/webp">
+            <img src="img/dyn-open.png" alt="Откройте бизнес">
+          </picture>
+          <div class="dynamic-open__caption">
+            Откройте готовый,<br>
+            медийный, трендовый,<br>
+            современный бизнес
+          </div>
+          <div class="dynamic-open__desc">
+            Оставьте заявку, мы вышлем вам материалы<br>и затем свяжемся для обсуждения деталей
+          </div>
+          <div class="dynamic-open__actions">
+            <a href="#" class="btn btn--xs btn--primary">Получить материалы</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="info">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="info__title">Candellabra сегодня</div>
+        <div class="info-list">
+          <div class="info-list__item">
+            <picture class="info-list__img info-list__img--one">
+              <source srcset="img/info-1.webp" type="image/webp">
+              <img src="img/info-1.png" alt="Мы открываемся в ТЦ">
+            </picture>
+            <div class="info-list__caption">
+              Мы уже<br>открываемся<br>в <span>48</span> из 354
+            </div>
+            <div class="info-list__desc">
+              освободившихся топовых ТЦ<br>в России
+            </div>
+          </div>
+
+          <div class="info-list__item">
+            <picture class="info-list__img info-list__img--two">
+              <source srcset="img/info-2.webp" type="image/webp">
+              <img src="img/info-2.png" alt="Города открытия">
+            </picture>
+            <div class="info-list__caption">
+              Наши магазины<br>уже работают в: 
+            </div>
+            <div class="info-list__desc">
+              Москве<br>
+              Воронеже<br>
+              Краснодаре<br>
+              Санкт-Петербурге
+            </div>
+          </div>
+
+          <div class="info-list__item">
+            <picture class="info-list__img info-list__img--three">
+              <source srcset="img/info-3.webp" type="image/webp">
+              <img src="img/info-3.png" alt="Открываются">
+            </picture>
+            <div class="info-list__caption">
+              Магазины на<br>стадии открытия: 
+            </div>
+            <div class="info-list__desc">
+              Москва<br>
+              Калининград<br>
+              Ростов на дону<br>
+              Шымкент
+            </div>
+          </div>
+
+          <div class="info-list__item">
+            <picture class="info-list__img info-list__img--four">
+              <source srcset="img/info-4.webp" type="image/webp">
+              <img src="img/info-4.png" alt="Маркетплейс Candellabra.com">
+            </picture>
+            <div class="info-list__caption">
+              Маркетплейс<br>Candellabra.com
+            </div>
+            <div class="info-list__desc">
+              Собственная разработка,<br>с огромным количеством товаров
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+  </main>
+  <footer class="footer">
+  <img src="img/logo.png" alt="logo" class="footer__logo">
+  <div class="footer-form">
+    <div class="footer-form__caption">
+      Узнайте, как открыть<br>Candellabra HOME<br>в Вашем городе
+    </div>
+    <div class="footer-form__desc">
+      Оставьте заявку, мы вышлем вам материалы<br>и затем свяжемся для обсуждения деталей
+    </div>
+    <form class="form" action="">
+      <div class="form-row">
+        <input type="text" placeholder="Имя">
+        <input type="text" placeholder="Телефон">
+        <input type="text" placeholder="Email">
+      </div>
+      <div class="form-actions">
+        <button class="btn btn--xs btn--primary">Получить материалы</button>
+        <div class="form-actions__text">Нажимая кнопку “Получить материалы”<br>Вы соглашаетесь с обработкой данных</div>
+      </div>
+    </form>
+  </div>
+</footer>
+
+  <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>

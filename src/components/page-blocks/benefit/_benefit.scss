@@ -1,0 +1,117 @@
+.benefit {
+
+  &-content {
+    background-image: linear-gradient(93.82deg, #F7F7F7 8.23%, #F4F4F4 94.19%);
+    border-radius: 110px;
+    border: 10px solid #fff;
+    padding: 125px 0 125px 700px;
+    position: relative;
+
+    &__img {
+      position: absolute;
+      left: 110px;
+      bottom: 46px;
+    }
+
+    &__caption {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 46px;
+      margin-bottom: 13px;
+    }
+
+    &__desc {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+}
+
+.leave-brand {
+  background-color: #F4F9FC;
+  margin-top: -70px;
+  padding: 115px;
+}
+
+.free-market {
+  padding: 80px 0;
+}
+
+.provider {
+  background-color: #F4F9FC;
+  padding: 85px 0;
+  position: relative;
+  overflow: hidden;
+
+  &-content {
+    padding: 130px 0 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__item {
+      background: rgba(255, 255, 255, 0.65);
+      backdrop-filter: blur(140px);
+      border-radius: 110px;
+      padding: 45px 82px;
+      text-align: center;
+      width: 760px;
+    }
+
+    &__caption {
+      font-size: 55px;
+      font-weight: 600;
+      line-height: 61px;
+      margin-bottom: 18px;
+    }
+
+    &__desc {
+      font-size: 32px;
+      line-height: 41px;
+    }
+  }
+
+  &-slider {
+    position: absolute;
+    left: -10%;
+    right: -10%;
+    bottom: 220px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 0;
+    width: 120%;
+  }
+}
+
+.best-time {
+  background-color: #384266;
+  box-shadow: 0px -35px 46px rgba(0, 0, 0, 0.1);
+  padding: 65px 0;
+  position: relative;
+
+  &-content {
+    color: #fff;
+    padding-left: 730px;
+
+    &__img {
+      position: absolute;
+      bottom: -35px;
+      left: 60px;
+    }
+
+    &__caption {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 46px;
+      margin-bottom: 11px;
+    }
+
+    &__desc {
+      font-size: 20px;
+      line-height: 32px;
+      margin-bottom: 43px;
+    }
+  }
+}

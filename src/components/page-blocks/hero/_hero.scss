@@ -1,0 +1,70 @@
+.hero {
+  padding-top: 117px;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  &-caption {
+    width: 50%;
+
+    &__desc {
+      color: #8E8E8E;
+      font-size: 32px;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+  }
+
+  &-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+
+    &__desc {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    &-link {
+      position: relative;
+
+      &__play {
+        height: 150px;
+        width: 150px;
+        background: rgba(255, 255, 255, 0.46);
+        box-shadow: 0px 32px 36px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(11px);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDciIGhlaWdodD0iNTQiIHZpZXdCb3g9IjAgMCA0NyA1NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQ2LjIyNTYgMjcuMTEyTDAuNDE5NjE0IDUzLjU1ODFMMC40MTk2MTcgMC42NjU5M0w0Ni4yMjU2IDI3LjExMloiIGZpbGw9IiNGQkZCRkIiLz4KPC9zdmc+Cg==");
+        }
+      }
+    }
+  }
+
+  &-actions {
+
+    &__content {
+      margin-bottom: 13px;
+    }
+
+    &__desc {
+      color: #888888;
+      font-size: 14px;
+    }
+  }
+}

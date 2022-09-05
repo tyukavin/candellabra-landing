@@ -1,0 +1,22 @@
+.safe {
+  margin-top: 140px;
+  margin-bottom: 120px;
+
+  &-content {
+    background-image: linear-gradient(93.82deg, #FBC502 8.23%, #FFD746 94.19%);
+    border-radius: 110px;
+    padding: 60px;
+    padding-left: 640px;
+
+    &__caption {
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+
+    &__desc {
+      font-size: 20px;
+      margin-bottom: 60px;
+    }
+  }
+}
