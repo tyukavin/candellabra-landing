@@ -37,6 +37,13 @@
       text-decoration: none;
       width: 462px;
 
+      &:hover {
+
+        .link-open {
+          transform: translate(-50%, -50%) scale(1.1);
+        }
+      }
+
       .link-open {
         top: 125px;
       }
