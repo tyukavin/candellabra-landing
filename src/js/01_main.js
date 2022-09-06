@@ -1,8 +1,6 @@
 (function() {
 
-  document.addEventListener("DOMContentLoaded", () => {
-
-    const wow = new WOW({
+  const wow = new WOW({
       boxClass: 'wow',
       animateClass: 'animate__animated',
       offset: 0,
@@ -10,6 +8,8 @@
     });
 
     wow.init();
+
+  document.addEventListener("DOMContentLoaded", () => {
 
     const controller = new ScrollMagic.Controller();
 
