@@ -11,6 +11,12 @@
       flex: 1 1 100%;
       display: flex;
       gap: 15px;
+
+      &--hidden {
+        height: 0;
+        max-height: 0;
+        overflow: hidden;
+      }
     }
   }
 

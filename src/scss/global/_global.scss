@@ -78,6 +78,13 @@ input {
   text-align: center;
   text-decoration: none;
 
+  &:disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: .5;
+    user-select: none;
+  }
+
   & + & {
     margin-left: 30px;
   }
@@ -135,6 +142,32 @@ input {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
+    position: relative;
+    overflow: hidden;
+
+    span {
+      position: relative;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: #444a5e;
+      z-index: 0;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+
+    &:hover {
+      &::before {
+        opacity: 1;
+      }
+    }
   }
 
   &--more-xs {

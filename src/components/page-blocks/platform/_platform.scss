@@ -7,6 +7,7 @@
   }
 
   &-list {
+    position: relative;
 
     &:not(:last-child) {
       margin-right: 206px;
@@ -44,6 +45,7 @@
       }
 
       &--green {
+        animation: greenLight 2s linear infinite;
         background-color: #4BE25B;
       }
     }
@@ -61,6 +63,7 @@
     &__wrap {
       display: flex;
       margin-bottom: 120px;
+      position: relative;
     }
   }
 
@@ -91,5 +94,61 @@
       font-size: 20px;
       line-height: 30px;
     }
+  }
+
+  &-lines {
+    position: absolute;
+    top: 0;
+    left: 220px;
+    height: 430px;
+    width: 310px;
+
+    &__item {
+      position: absolute;
+
+      path {
+        opacity: 0;
+        transition: opacity .2s;
+
+        &.anim-1,
+        &.anim-2,
+        &.anim-3,
+        &.anim-4 {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+#platform-line-one {
+  top: 7%;
+  left: 13%;
+}
+
+#platform-line-two {
+  top: 8%;
+  left: 0;
+}
+
+#platform-line-three {
+  top: 61%;
+  left: 1%;
+}
+
+#platform-line-four {
+  top: 36%;
+  left: 2%;
+}
+
+@keyframes greenLight {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 16px 4px #4be25b;
+  }
+  100% {
+    box-shadow: none;
   }
 }
