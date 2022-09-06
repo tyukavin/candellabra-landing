@@ -68,27 +68,38 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="safe-content wow slideInLeft" data-wow-offset="10" data-wow-duration="2s">
-          <picture class="safe-content__img">
-            <source srcset="img/bus-main.webp" type="image/webp">
-            <img src="img/bus-main.png" alt="Кружка">
-          </picture>
-          <div class="safe-content__caption">Бизнес с гарантией!</div>
-          <div class="safe-content__desc">
-            Если через 1 год магазин не выйдет на плановые<br>
-            показатели, мы готовый предложить выкуп магазина
+        <div class="safe-content wow animate__fadeIn" data-wow-duration="2s">
+          
+          <div class="safe-content--parallax">
+            <picture class="safe-content__img">
+              <source srcset="img/bus-main.webp" type="image/webp">
+              <img src="img/bus-main.png" alt="Кружка">
+            </picture>
+
+            <div class="safe-content__caption">Бизнес с гарантией!</div>
+            <div class="safe-content__desc">
+              Если через 1 год магазин не выйдет на плановые<br>
+              показатели, мы готовый предложить выкуп магазина
+            </div>
+            <div class="safe-content__actions">
+              <a href="#" class="btn btn--xs btn--more">Узнать подробнее</a>
+            </div>
           </div>
-          <div class="safe-content__actions">
-            <a href="#" class="btn btn--xs btn--more">Узнать подробнее</a>
+
+          <div class="parallax" data-depth="0.2">
+            <picture class="safe-content-img safe-content-img--one">
+              <source srcset="img/bus-1.webp" type="image/webp">
+              <img src="img/bus-1.png" alt="Кружка">
+            </picture>
           </div>
-          <picture class="safe-content-img safe-content-img--one">
-            <source srcset="img/bus-1.webp" type="image/webp">
-            <img src="img/bus-1.png" alt="Кружка">
-          </picture>
-          <picture class="safe-content-img safe-content-img--two">
-            <source srcset="img/bus-2.webp" type="image/webp">
-            <img src="img/bus-2.png" alt="Кружка">
-          </picture>
+
+          <div class="parallax" data-depth="0.1">
+            <picture class="safe-content-img safe-content-img--two">
+              <source srcset="img/bus-2.webp" type="image/webp">
+              <img src="img/bus-2.png" alt="Кружка">
+            </picture>
+          </div>
+
         </div>
       </div>
     </div>
@@ -103,13 +114,27 @@
           <div class="section-head__sub">Он уютный, современный,<br>с прекрасным дизайном</div>
         </div>
         <div class="store-content">
-          <div class="store-content__row">
-            <img src="img/store-main.jpg" alt="">
+          <div class="store-content__row wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s">
+            <picture>
+              <source srcset="img/store-main.webp" type="image/webp">
+              <img src="img/store-main.png" alt="Наш магазин">
+            </picture>
           </div>
           <div class="store-content__row">
-            <img src="img/store-1.jpg" alt="">
-            <img src="img/store-2.jpg" alt="">
-            <img src="img/store-3.jpg" alt="">
+            <picture class="wow animate__zoomIn animate__fadeIn" data-wow-offset="150" data-wow-duration="2s">
+              <source srcset="img/store-1.webp" type="image/webp">
+              <img src="img/store-1.png" alt="Наш магазин">
+            </picture>
+
+            <picture class="wow animate__zoomIn animate__fadeIn" data-wow-offset="150" data-wow-duration="2s">
+              <source srcset="img/store-2.webp" type="image/webp">
+              <img src="img/store-2.png" alt="Наш магазин">
+            </picture>
+
+            <picture class="wow animate__zoomIn animate__fadeIn" data-wow-offset="150" data-wow-duration="2s">
+              <source srcset="img/store-3.webp" type="image/webp">
+              <img src="img/store-3.png" alt="Наш магазин">
+            </picture>
           </div>
         </div>
         <div class="store__actions">
@@ -127,7 +152,7 @@
           <h2 class="section-head__title">Ассортимент</h2>
           <div class="section-head__sub">проблем не будет - он на 90%<br>от российских поставщиков</div>
         </div>
-        <div class="assort-content">
+        <div class="assort-content wow animate__fadeIn" data-wow-offset="200" data-wow-duration="2s">
           <div class="assort-content__item">
             <picture class="assort-content__img">
               <source srcset="img/assort-1.webp" type="image/webp">
@@ -197,17 +222,17 @@
           </div>
         </div>
         <div class="assort-desc">
-          <div class="assort-desc__item">
+          <div class="assort-desc__item wow animate__fadeIn" data-wow-offset="50" data-wow-duration="2s">
             Текстиль<br>
             Декор для дома<br>
             Постельное белье
           </div>
-          <div class="assort-desc__item">
+          <div class="assort-desc__item wow animate__fadeIn" data-wow-offset="50" data-wow-duration="2s" data-wow-delay="1s">
             Одеяла и подушки<br>
             Свечи и диффузоры<br>
             Настенный декор
           </div>
-          <div class="assort-desc__item">
+          <div class="assort-desc__item wow animate__fadeIn" data-wow-offset="50" data-wow-duration="2s" data-wow-delay="2s">
             Освещение<br>
             Декор ванной комнаты<br>
             Ковры
@@ -226,16 +251,27 @@
           <div class="section-head__sub">Гибкий выбор концепций</div>
         </div>
         <div class="format-content">
-          <div class="format-content__item">
-            <img src="/img/format-1.jpg" alt="">
+          <div class="format-content__item wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s" data-wow-delay="0.5s">
+            <picture>
+              <source srcset="img/format-1.webp" type="image/webp">
+              <img src="img/format-1.png" alt="В торговом центре">
+            </picture>
             <div class="format-content__caption">В торговом центре</div>
           </div>
-          <div class="format-content__item">
-            <img src="/img/format-2.jpg" alt="">
+
+          <div class="format-content__item wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s" data-wow-delay="1s">
+            <picture>
+              <source srcset="img/format-2.webp" type="image/webp">
+              <img src="img/format-2.png" alt="Отдельный магазин">
+            </picture>
             <div class="format-content__caption">Отдельный магазин</div>
           </div>
-          <div class="format-content__item">
-            <img src="/img/format-3.jpg" alt="">
+
+          <div class="format-content__item wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s" data-wow-delay="1.5s">
+            <picture>
+              <source srcset="img/format-3.webp" type="image/webp">
+              <img src="img/format-3.png" alt="Магазин + кофейня">
+            </picture>
             <div class="format-content__caption">Магазин + кофейня</div>
           </div>
         </div>
@@ -339,7 +375,7 @@
           </div>
         </div>
         <div class="free-market-content">
-          <div class="free-market-content__item free-market-content__item--one">
+          <div class="free-market-content__item free-market-content__item--one wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s">
             <img class="art" src="img/arrow-green-up.png" alt="">
             <div class="free-market-content__text">
               Индекс<br>
@@ -349,7 +385,7 @@
             <div class="free-market-content__cus">+20%</div>
           </div>
 
-          <div class="free-market-content__item free-market-content__item--two">
+          <div class="free-market-content__item free-market-content__item--two wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s" data-wow-delay="0.3s">
             <div class="free-market-content__text">
               Рынок мебели и товаров<br>
               для дома освободился
@@ -360,7 +396,7 @@
             </div>
           </div>
 
-          <div class="free-market-content__item free-market-content__item--three">
+          <div class="free-market-content__item free-market-content__item--three wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s" data-wow-delay="0.6s">
             <img class="art" src="img/arrow-red-down.png" alt="">
             <div class="free-market-content__text">
               Закрытые магазины<br>
@@ -372,7 +408,7 @@
           </div>
         </div>
 
-        <div class="money">
+        <div class="money wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s" data-wow-delay="0.9s">
           <picture class="money__img">
             <source srcset="img/free-main.webp" type="image/webp">
             <img src="img/free-main.png" alt="Деньги">
@@ -393,7 +429,7 @@
         </div>
 
         <div class="chart">
-          <div class="chart__item">
+          <div class="chart__item wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s">
             <div class="chart__caption">Купить вазу<br>(запросов в мес)</div>
             <picture class="chart__img">
               <source srcset="img/zapros-1.webp" type="image/webp">
@@ -405,7 +441,7 @@
             </picture>
           </div>
 
-          <div class="chart__item">
+          <div class="chart__item wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s" data-wow-delay="0.1s">
             <div class="chart__caption">Купить посуду<br>(запросов в мес)</div>
             <picture class="chart__img">
               <source srcset="img/zapros-2.webp" type="image/webp">
@@ -417,7 +453,7 @@
             </picture>
           </div>
 
-          <div class="chart__item">
+          <div class="chart__item wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s" data-wow-delay="0.2s">
             <div class="chart__caption">“Купить товары для дома”<br>(запросов в мес)</div>
             <picture class="chart__img">
               <source srcset="img/zapros-3.webp" type="image/webp">
@@ -519,7 +555,7 @@
                 500 000 человек узнают новости<br>Candellabra каждый день
               </div>
             </div>
-            <table class="table">
+            <table class="table wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s">
               <thead>
                 <tr>
                   <th></th>
@@ -577,13 +613,27 @@
             </table>
           </div>
           <div class="media-content__item media-content--screens">
-            <img src="img/screen-vk.png" class="img-screen img-screen--vk" alt="screen vk">
-            <img src="img/screen-tiktok.png" class="img-screen img-screen--tiktok" alt="screen tiktok">
-            <img src="img/screen-youtube.png" class="img-screen img-screen--yt" alt="screen youtube">
+            <picture class="img-screen img-screen--vk wow animate__fadeInRight" data-wow-offset="100" data-wow-duration="1s" data-wow-delay="1s">
+              <source srcset="img/screen-vk.webp" type="image/webp">
+              <img src="img/screen-vk.png" alt="Скриншот Вконтакте">
+            </picture>
+
+            <picture class="img-screen img-screen--tiktok wow animate__fadeInRight" data-wow-offset="100" data-wow-duration="1s" data-wow-delay="2s">
+              <source srcset="img/screen-tiktok.webp" type="image/webp">
+              <img src="img/screen-tiktok.png" alt="Скриншот Tiktok">
+            </picture>
+
+            <picture class="img-screen img-screen--yt wow animate__fadeInRight" data-wow-offset="100" data-wow-duration="1s" data-wow-delay="3s">
+              <source srcset="img/screen-youtube.webp" type="image/webp">
+              <img src="img/screen-youtube.png" alt="Скриншот Youtube">
+            </picture>
           </div>
         </div>
         <div class="media-pr">
-          <img src="img/pr.png" alt="" class="media-pr__img">
+          <picture class="media-pr__img">
+            <source srcset="img/pr.webp" type="image/webp">
+            <img src="img/pr.png" alt="Candellabra - активное медиа">
+          </picture>
           <div class="media-pr__caption">
             Вам не нужно тратиться<br>на PR и маркетинг - этим<br>занимаемся мы
           </div>
@@ -603,8 +653,11 @@
         </div>
         <div class="profit-content">
           <div class="profit-content__item">
-            <img src="img/profit-1.png" alt="" class="profit-content__img">
-            <div class="profit-content__card">
+            <picture class="profit-content__img wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s">
+              <source srcset="img/profit-1.webp" type="image/webp">
+              <img src="img/profit-1.png" alt="Доход с 1 свечи">
+            </picture>
+            <div class="profit-content__card wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s" data-wow-delay="0.1s">
               <div class="profit-content__card-caption">Розничная цена<br>1650 руб.</div>
               <div class="profit-content__card-price">
                 Доход с 1 свечи<br>
@@ -612,9 +665,13 @@
               </div>
             </div>
           </div>
+
           <div class="profit-content__item">
-            <img src="img/profit-2.png" alt="" class="profit-content__img">
-            <div class="profit-content__card">
+            <picture class="profit-content__img wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s" data-wow-delay="0.2s">
+              <source srcset="img/profit-2.webp" type="image/webp">
+              <img src="img/profit-2.png" alt="Доход с 1 лампы">
+            </picture>
+            <div class="profit-content__card wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s" data-wow-delay="0.3s">
               <div class="profit-content__card-caption">Розничная цена<br>14 750 руб.</div>
               <div class="profit-content__card-price">
                 Доход с 1 лампы<br>
@@ -713,20 +770,34 @@
           <div class="section-head__sub">Candellabra.com - берет на себя все ручные процессы<br>от маркетинга до логистики</div>
         </div>
         <div class="support-content">
-          <picture class="support-content__img">
-            <source srcset="img/support-main.webp" type="image/webp">
-            <img src="img/support-main.png" alt="Up">
-          </picture>
-          <div class="support-content__caption">
-            Ваша задача<br>
-            наслаждаться бизнесом<br>
-            и зарабатывать деньги
+          <div class="support-content--parallax">
+            <picture class="support-content__img">
+              <source srcset="img/support-main.webp" type="image/webp">
+              <img src="img/support-main.png" alt="Up">
+            </picture>
+            <div class="support-content__caption">
+              Ваша задача<br>
+              наслаждаться бизнесом<br>
+              и зарабатывать деньги
+            </div>
+            <div class="support-content__desc">остальное сделает Центральная компания</div>
           </div>
-          <div class="support-content__desc">остальное сделает Центральная компания</div>
-          <img src="img/support-rub-1.png" alt="Ruble" class="support-content__art support-content__art--one">
-          <img src="img/support-rub-2.png" alt="Ruble" class="support-content__art support-content__art--two">
-          <img src="img/support-rub-3.png" alt="Ruble" class="support-content__art support-content__art--three">
-          <img src="img/support-rub-4.png" alt="Ruble" class="support-content__art support-content__art--four">
+          
+          <div class="parallax" data-depth="0.1">
+            <img src="img/support-rub-1.png" alt="Ruble" class="support-content__art support-content__art--one">
+          </div>
+
+          <div class="parallax" data-depth="0.3">
+            <img src="img/support-rub-2.png" alt="Ruble" class="support-content__art support-content__art--two">
+          </div>
+          
+          <div class="parallax" data-depth="0.2">
+            <img src="img/support-rub-3.png" alt="Ruble" class="support-content__art support-content__art--three">
+          </div>
+
+          <div class="parallax" data-depth="0.1">
+            <img src="img/support-rub-4.png" alt="Ruble" class="support-content__art support-content__art--four">
+          </div>
         </div>
       </div>
     </div>
@@ -879,7 +950,7 @@
       <div class="col">
         <div class="info__title">Candellabra сегодня</div>
         <div class="info-list">
-          <div class="info-list__item">
+          <div class="info-list__item wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s">
             <picture class="info-list__img info-list__img--one">
               <source srcset="img/info-1.webp" type="image/webp">
               <img src="img/info-1.png" alt="Мы открываемся в ТЦ">
@@ -892,7 +963,7 @@
             </div>
           </div>
 
-          <div class="info-list__item">
+          <div class="info-list__item wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s">
             <picture class="info-list__img info-list__img--two">
               <source srcset="img/info-2.webp" type="image/webp">
               <img src="img/info-2.png" alt="Города открытия">
@@ -908,7 +979,7 @@
             </div>
           </div>
 
-          <div class="info-list__item">
+          <div class="info-list__item wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s">
             <picture class="info-list__img info-list__img--three">
               <source srcset="img/info-3.webp" type="image/webp">
               <img src="img/info-3.png" alt="Открываются">
@@ -924,7 +995,7 @@
             </div>
           </div>
 
-          <div class="info-list__item">
+          <div class="info-list__item wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s">
             <picture class="info-list__img info-list__img--four">
               <source srcset="img/info-4.webp" type="image/webp">
               <img src="img/info-4.png" alt="Маркетплейс Candellabra.com">
@@ -950,7 +1021,7 @@
           Посмотрите отзывы, историю Партнёра,<br>выпуски про нас и статьи в СМИ
         </div>
         <div class="about-content">
-          <div class="about-content__row">
+          <div class="about-content__row wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s">
             <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
               <div class="link-open link-open--video"></div>
               <picture class="about-content__img">
@@ -992,7 +1063,7 @@
             </a>
           </div>
 
-          <div class="about-content__row">
+          <div class="about-content__row wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s">
             <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
               <div class="link-open link-open--article"></div>
               <picture class="about-content__img">
@@ -1021,7 +1092,7 @@
             </a>
           </div>
 
-          <div class="about-content__row">
+          <div class="about-content__row wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s">
             <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
               <div class="link-open link-open--article"></div>
               <picture class="about-content__img">
@@ -1079,6 +1150,7 @@
 </footer>
 
   <script src="js/libs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 <script src="js/main.min.js"></script>
 
 </body>

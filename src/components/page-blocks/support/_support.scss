@@ -9,11 +9,17 @@
     position: relative;
     margin: 140px auto 0;
     width: 90%;
+    pointer-events: all !important;
+
+    .parallax {
+      height: 100%;
+      width: 100%;
+    }
 
     &__img {
       position: absolute;
-      left: 130px;
-      bottom: 45px;
+      left: -66%;
+      bottom: -25%;
     }
 
     &__caption {

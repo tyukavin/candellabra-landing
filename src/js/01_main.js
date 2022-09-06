@@ -4,7 +4,21 @@
 
     console.log("load");
 
-    new WOW().init();
+    const wow = new WOW(
+      {
+        boxClass: 'wow',
+        animateClass: 'animate__animated',
+        offset: 0,
+        mobile: false,
+      }
+    );
+    wow.init();
+
+    const sceneSafe = document.querySelector(".safe-content");
+    const parallaxInstance1 = new Parallax(sceneSafe);
+
+    const sceneSupport = document.querySelector(".support-content");
+    const parallaxInstance2 = new Parallax(sceneSupport);
   });
 
 })();

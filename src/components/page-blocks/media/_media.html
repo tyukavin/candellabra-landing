@@ -14,7 +14,7 @@
                 500 000 человек узнают новости<br>Candellabra каждый день
               </div>
             </div>
-            <table class="table">
+            <table class="table wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s">
               <thead>
                 <tr>
                   <th></th>
@@ -72,13 +72,27 @@
             </table>
           </div>
           <div class="media-content__item media-content--screens">
-            <img src="img/screen-vk.png" class="img-screen img-screen--vk" alt="screen vk">
-            <img src="img/screen-tiktok.png" class="img-screen img-screen--tiktok" alt="screen tiktok">
-            <img src="img/screen-youtube.png" class="img-screen img-screen--yt" alt="screen youtube">
+            <picture class="img-screen img-screen--vk wow animate__fadeInRight" data-wow-offset="100" data-wow-duration="1s" data-wow-delay="1s">
+              <source srcset="img/screen-vk.webp" type="image/webp">
+              <img src="img/screen-vk.png" alt="Скриншот Вконтакте">
+            </picture>
+
+            <picture class="img-screen img-screen--tiktok wow animate__fadeInRight" data-wow-offset="100" data-wow-duration="1s" data-wow-delay="2s">
+              <source srcset="img/screen-tiktok.webp" type="image/webp">
+              <img src="img/screen-tiktok.png" alt="Скриншот Tiktok">
+            </picture>
+
+            <picture class="img-screen img-screen--yt wow animate__fadeInRight" data-wow-offset="100" data-wow-duration="1s" data-wow-delay="3s">
+              <source srcset="img/screen-youtube.webp" type="image/webp">
+              <img src="img/screen-youtube.png" alt="Скриншот Youtube">
+            </picture>
           </div>
         </div>
         <div class="media-pr">
-          <img src="img/pr.png" alt="" class="media-pr__img">
+          <picture class="media-pr__img">
+            <source srcset="img/pr.webp" type="image/webp">
+            <img src="img/pr.png" alt="Candellabra - активное медиа">
+          </picture>
           <div class="media-pr__caption">
             Вам не нужно тратиться<br>на PR и маркетинг - этим<br>занимаемся мы
           </div>
