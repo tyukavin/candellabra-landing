@@ -19,6 +19,11 @@
 
     const sceneSupport = document.querySelector(".support-content");
     const parallaxInstance2 = new Parallax(sceneSupport);
+
+    const myModal = new HystModal({
+      linkAttributeName: "data-hystmodal",
+      //settings (optional). see API
+    });
   });
 
 })();

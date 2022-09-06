@@ -52,10 +52,10 @@
         </div>
         <div class="hero-actions wow animate__fadeIn" data-wow-offset="10" data-wow-duration="2s">
           <div class="hero-actions__content">
-            <button class="btn btn--primary">
+            <button class="btn btn--primary" data-hystmodal="#formModal">
               <span>Получить финансовую модель</span>
             </button>
-            <button class="btn btn--secondary">Инвестиции от 3 млн. рублей</button>
+            <a href="/" class="btn btn--secondary" target="_blank">Инвестиции от 3 млн. рублей</a>
           </div>
           <div class="hero-actions__desc">
             оставьте заявку, и&nbsp;получите финансовую модель<br>
@@ -290,7 +290,7 @@
         <div class="format-quastion">
           <div class="format-quastion__caption">Появились вопросы?</div>
           <div class="format-quastion__actions">
-            <button class="btn btn--xs btn--primary">
+            <button class="btn btn--xs btn--primary" data-hystmodal="#formModal">
               <span>Задать вопрос специалисту</span>
             </button>
           </div>
@@ -536,9 +536,9 @@
             Оставьте заявку, мы вышлем вам материалы<br>и затем свяжемся для обсуждения деталей
           </div>
           <div class="best-time-content__actions">
-            <a href="#" class="btn btn--xs btn--primary">
+            <button class="btn btn--xs btn--primary" data-hystmodal="#formModal">
               <span>Получить материалы</span>
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -943,9 +943,9 @@
             Оставьте заявку, мы вышлем вам материалы<br>и затем свяжемся для обсуждения деталей
           </div>
           <div class="dynamic-open__actions">
-            <a href="#" class="btn btn--xs btn--primary">
+            <button class="btn btn--xs btn--primary" data-hystmodal="#formModal">
               <span>Получить материалы</span>
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -1158,6 +1158,31 @@
     </form>
   </div>
 </footer>
+
+<div class="hystmodal" id="formModal" aria-hidden="true">
+  <div class="hystmodal__wrap">
+      <div class="hystmodal__window dialog-form" role="dialog" aria-modal="true">
+          <button data-hystclose class="hystmodal__close">Закрыть</button>
+          <div class="footer-form">
+            <div class="footer-form__caption">Узнайте, как открыть<br>Candellabra HOME<br>в Вашем городе</div>
+            <div class="footer-form__desc">Оставьте заявку, мы вышлем вам материалы<br>и затем свяжемся для обсуждения деталей</div>
+            <form class="form" action="">
+              <div class="form-row">
+                <input type="text" placeholder="Имя" tabindex="0">
+                <input type="text" placeholder="Телефон" tabindex="0">
+                <input type="text" placeholder="Email" tabindex="0">
+              </div>
+              <div class="form-actions">
+                <button class="btn btn--xs btn--primary">
+                  <span>Получить материалы</span>
+                </button>
+                <div class="form-actions__text">Нажимая кнопку “Получить материалы”<br>Вы соглашаетесь с обработкой данных</div>
+              </div>
+            </form>
+          </div>
+      </div>
+  </div>
+</div>
 
   <script src="js/libs.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
