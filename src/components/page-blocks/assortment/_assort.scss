@@ -8,4 +8,20 @@
     justify-content: space-between;
     line-height: 1.6;
   }
+
+  &-content {
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+    &__item {
+      display: flex;
+      gap: 4px;
+
+      &:first-child {
+        margin-bottom: 4px;
+      }
+    }
+  }
 }

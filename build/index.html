@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Gulp pack for easy html/php markup development">
-  <!-- <link rel="shortcut icon" href="img/favicons/favicon.svg" type="image/svg+xml">
-  <link rel="shortcut icon" href="img/favicons/favicon.webp" type="image/webp">
-  <link rel="shortcut icon" href="img/favicons/favicon.png" type="image/x-icon"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/style.min.css">
   <title>Откройте магазин стильных товаров для дома </title>
@@ -27,7 +28,7 @@
     <div class="row">
       <div class="col">
         <div class="hero__content">
-          <div class="hero-caption">
+          <div class="hero-caption wow animate__fadeIn" data-wow-offset="10" data-wow-duration="2s">
             <h1 class="title">
               Откройте магазин <span>стильных</span> товаров для&nbsp;дома
             </h1>
@@ -36,19 +37,20 @@
               от&nbsp;250&nbsp;000р в&nbsp;месяц
             </div>
           </div>
-          <div class="hero-video">
-            <a href="#" class="hero-video-link">
+          <div class="hero-video wow animate__fadeIn" data-wow-offset="10" data-wow-duration="2s">
+            <a href="#" class="hero-video-link" target="_blank" title="Открыть в новой вкладке">
               <picture>
                 <source srcset="img/hero-video_2x.webp 2x" type="image/webp">
                 <source srcset="img/hero-video_2x.jpg 2x">
                 <source srcset="img/hero-video.webp" type="image/webp">
                 <img src="img/hero-video.jpg" alt="Candellabra Home">
               </picture>
+              <div class="link-open link-open--video"></div>
             </a>
             <div class="hero-video__desc has-arrow">посмотрите видео о Candellabra HOME</div>
           </div>
         </div>
-        <div class="hero-actions">
+        <div class="hero-actions wow animate__fadeIn" data-wow-offset="10" data-wow-duration="2s">
           <div class="hero-actions__content">
             <button class="btn btn--primary">Получить финансовую модель</button>
             <button class="btn btn--secondary">Инвестиции от 3 млн. рублей</button>
@@ -66,7 +68,11 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="safe-content">
+        <div class="safe-content wow slideInLeft" data-wow-offset="10" data-wow-duration="2s">
+          <picture class="safe-content__img">
+            <source srcset="img/bus-main.webp" type="image/webp">
+            <img src="img/bus-main.png" alt="Кружка">
+          </picture>
           <div class="safe-content__caption">Бизнес с гарантией!</div>
           <div class="safe-content__desc">
             Если через 1 год магазин не выйдет на плановые<br>
@@ -75,6 +81,14 @@
           <div class="safe-content__actions">
             <a href="#" class="btn btn--xs btn--more">Узнать подробнее</a>
           </div>
+          <picture class="safe-content-img safe-content-img--one">
+            <source srcset="img/bus-1.webp" type="image/webp">
+            <img src="img/bus-1.png" alt="Кружка">
+          </picture>
+          <picture class="safe-content-img safe-content-img--two">
+            <source srcset="img/bus-2.webp" type="image/webp">
+            <img src="img/bus-2.png" alt="Кружка">
+          </picture>
         </div>
       </div>
     </div>
@@ -113,7 +127,75 @@
           <h2 class="section-head__title">Ассортимент</h2>
           <div class="section-head__sub">проблем не будет - он на 90%<br>от российских поставщиков</div>
         </div>
-        <div class="assort-content"></div>
+        <div class="assort-content">
+          <div class="assort-content__item">
+            <picture class="assort-content__img">
+              <source srcset="img/assort-1.webp" type="image/webp">
+              <img src="img/assort-1.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-2.webp" type="image/webp">
+              <img src="img/assort-2.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-3.webp" type="image/webp">
+              <img src="img/assort-3.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-4.webp" type="image/webp">
+              <img src="img/assort-4.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-5.webp" type="image/webp">
+              <img src="img/assort-5.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-6.webp" type="image/webp">
+              <img src="img/assort-6.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-7.webp" type="image/webp">
+              <img src="img/assort-7.png" alt="Кружка">
+            </picture>
+          </div>
+          <div class="assort-content__item">
+            <picture class="assort-content__img">
+              <source srcset="img/assort-8.webp" type="image/webp">
+              <img src="img/assort-8.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-9.webp" type="image/webp">
+              <img src="img/assort-9.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-10.webp" type="image/webp">
+              <img src="img/assort-10.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-11.webp" type="image/webp">
+              <img src="img/assort-11.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-12.webp" type="image/webp">
+              <img src="img/assort-12.png" alt="Кружка">
+            </picture>
+
+            <picture class="assort-content__img">
+              <source srcset="img/assort-13.webp" type="image/webp">
+              <img src="img/assort-13.png" alt="Кружка">
+            </picture>
+          </div>
+        </div>
         <div class="assort-desc">
           <div class="assort-desc__item">
             Текстиль<br>
@@ -195,6 +277,40 @@
 </section>
 
 <section class="leave-brand">
+  <div class="leave-brand-slider">
+    <div class="leave-brand-slider__item">
+      <picture class="provider-slider__item">
+        <source srcset="img/zara-item.webp" type="image/webp">
+        <img src="img/zara-item.png" alt="Кружка">
+      </picture>
+      <picture class="provider-slider__item">
+        <source srcset="img/zara-logo.webp" type="image/webp">
+        <img src="img/zara-logo.png" alt="Кружка">
+      </picture>
+    </div>
+
+    <div class="leave-brand-slider__item">
+      <picture class="provider-slider__item">
+        <source srcset="img/hm-item.webp" type="image/webp">
+        <img src="img/hm-item.png" alt="Кружка">
+      </picture>
+      <picture class="provider-slider__item">
+        <source srcset="img/hm-logo.webp" type="image/webp">
+        <img src="img/hm-logo.png" alt="Кружка">
+      </picture>
+    </div>
+
+    <div class="leave-brand-slider__item">
+      <picture class="provider-slider__item">
+        <source srcset="img/ikea-item.webp" type="image/webp">
+        <img src="img/ikea-item.png" alt="Кружка">
+      </picture>
+      <picture class="provider-slider__item">
+        <source srcset="img/ikea-logo.webp" type="image/webp">
+        <img src="img/ikea-logo.png" alt="Кружка">
+      </picture>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col">
@@ -205,6 +321,7 @@
             <div class="section-head__sub">Оставляя пустые помещения, и спрос<br>российского потребителя</div>
           </div>
         </div>
+        <div class="leave-brand-content"></div>
       </div>
     </div>
   </div>
@@ -219,6 +336,97 @@
           <div class="section-head__content">
             <h2 class="section-head__title">Освободился<br>рынок и деньги</h2>
             <div class="section-head__sub">Все обстоятельства в нашу пользу</div>
+          </div>
+        </div>
+        <div class="free-market-content">
+          <div class="free-market-content__item free-market-content__item--one">
+            <img class="art" src="img/arrow-green-up.png" alt="">
+            <div class="free-market-content__text">
+              Индекс<br>
+              потребительского интереса<br>
+              к товарам для дома вырос
+            </div>
+            <div class="free-market-content__cus">+20%</div>
+          </div>
+
+          <div class="free-market-content__item free-market-content__item--two">
+            <div class="free-market-content__text">
+              Рынок мебели и товаров<br>
+              для дома освободился
+            </div>
+            <div class="free-market-content__cus">
+              более<br>
+              100 млрд. р
+            </div>
+          </div>
+
+          <div class="free-market-content__item free-market-content__item--three">
+            <img class="art" src="img/arrow-red-down.png" alt="">
+            <div class="free-market-content__text">
+              Закрытые магазины<br>
+              по России
+            </div>
+            <div class="free-market-content__cus">
+              -63 магазина
+            </div>
+          </div>
+        </div>
+
+        <div class="money">
+          <picture class="money__img">
+            <source srcset="img/free-main.webp" type="image/webp">
+            <img src="img/free-main.png" alt="Деньги">
+          </picture>
+          <div class="money__caption">
+            <strong>137,6</strong><br>
+            млрд. руб
+          </div>
+          <div class="money__desc">
+            появилось<br>
+            потребительского<br>
+            спроса <span>сегодня</span>
+          </div>
+          <picture class="money__art">
+            <source srcset="img/rosstat-logo.webp" type="image/webp">
+            <img src="img/rosstat-logo.png" alt="Деньги">
+          </picture>
+        </div>
+
+        <div class="chart">
+          <div class="chart__item">
+            <div class="chart__caption">Купить вазу<br>(запросов в мес)</div>
+            <picture class="chart__img">
+              <source srcset="img/zapros-1.webp" type="image/webp">
+              <img src="img/zapros-1.png" alt="Купить вазу (запросов в мес)">
+            </picture>
+            <picture class="chart__footer">
+              <source srcset="img/ya-logo.webp" type="image/webp">
+              <img src="img/ya-logo.png" alt="Logo Yandex">
+            </picture>
+          </div>
+
+          <div class="chart__item">
+            <div class="chart__caption">Купить посуду<br>(запросов в мес)</div>
+            <picture class="chart__img">
+              <source srcset="img/zapros-2.webp" type="image/webp">
+              <img src="img/zapros-2.png" alt="Купить посуду (запросов в мес)">
+            </picture>
+            <picture class="chart__footer">
+              <source srcset="img/ya-logo.webp" type="image/webp">
+              <img src="img/ya-logo.png" alt="Logo Yandex">
+            </picture>
+          </div>
+
+          <div class="chart__item">
+            <div class="chart__caption">“Купить товары для дома”<br>(запросов в мес)</div>
+            <picture class="chart__img">
+              <source srcset="img/zapros-3.webp" type="image/webp">
+              <img src="img/zapros-3.png" alt="Купить товары для дома (запросов в мес)">
+            </picture>
+            <picture class="chart__footer">
+              <source srcset="img/ya-logo.webp" type="image/webp">
+              <img src="img/ya-logo.png" alt="Logo Yandex">
+            </picture>
           </div>
         </div>
       </div>
@@ -733,7 +941,119 @@
     </div>
   </div>
 </section>
-    
+    <section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="about__title">О нас говорят</div>
+        <div class="about__subtitle">
+          Посмотрите отзывы, историю Партнёра,<br>выпуски про нас и статьи в СМИ
+        </div>
+        <div class="about-content">
+          <div class="about-content__row">
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--video"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-1.webp" type="image/webp">
+                <img src="img/about-1.png" alt="Канал “Хайповый бизнес”">
+              </picture>
+              <div class="about-content__caption">Канал “Хайповый бизнес”</div>
+              <div class="about-content__desc">
+                Как я запустил МЕБЕЛЬНЫЙ БИЗНЕС?<br>
+                Мебельный бизнес с чего начать?
+              </div>
+            </a>
+
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--video"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-2.webp" type="image/webp">
+                <img src="img/about-2.png" alt="Канал “Москва 24”">
+              </picture>
+              <div class="about-content__caption">Канал “Москва 24”</div>
+              <div class="about-content__desc">
+                Место IKEA могут занять отечественные<br>
+                производители – маркетологи
+              </div>
+            </a>
+
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--article"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-3.webp" type="image/webp">
+                <img src="img/about-3.png" alt="Москва онлайн msk1.ru">
+              </picture>
+              <div class="about-content__caption">Москва онлайн msk1.ru</div>
+              <div class="about-content__desc">
+                Вместо IKEA и Zara Home в Москве могут<br>
+                открыться магазины питерской сети<br>
+                Candellabra
+              </div>
+            </a>
+          </div>
+
+          <div class="about-content__row">
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--article"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-4.webp" type="image/webp">
+                <img src="img/about-4.png" alt="Журнал “Москвич MAG”">
+              </picture>
+              <div class="about-content__caption">Журнал “Москвич MAG”</div>
+            </a>
+
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--video"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-5.webp" type="image/webp">
+                <img src="img/about-5.png" alt="Канал “ПРО БИЗНЕС”">
+              </picture>
+              <div class="about-content__caption">Канал “ПРО БИЗНЕС”</div>
+            </a>
+
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--article"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-6.webp" type="image/webp">
+                <img src="img/about-6.png" alt="“Открытый франчайзинг”">
+              </picture>
+              <div class="about-content__caption">“Открытый франчайзинг”</div>
+            </a>
+          </div>
+
+          <div class="about-content__row">
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--article"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-7.webp" type="image/webp">
+                <img src="img/about-7.png" alt="Журнал “Диалог”">
+              </picture>
+              <div class="about-content__caption">Журнал “Диалог”</div>
+            </a>
+
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--article"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-8.webp" type="image/webp">
+                <img src="img/about-8.png" alt="РБК Компании">
+              </picture>
+              <div class="about-content__caption">РБК Компании</div>
+            </a>
+
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--article"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-9.webp" type="image/webp">
+                <img src="img/about-9.png" alt="Журнал “designers from russia”">
+              </picture>
+              <div class="about-content__caption">Журнал “designers from russia”</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   </main>
   <footer class="footer">
   <img src="img/logo.png" alt="logo" class="footer__logo">
