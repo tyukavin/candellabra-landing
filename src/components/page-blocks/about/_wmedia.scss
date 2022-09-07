@@ -1,6 +1,6 @@
 @media (max-width: 640px) {
   .about {
-    padding-bottom: 40px;
+    padding-bottom: 41px;
 
     &__title {
       font-size: 24px;
@@ -9,7 +9,7 @@
     }
 
     &__subtitle {
-      font-size: 12px;
+      font-size: 13px;
       line-height: 15px;
       margin-bottom: 28px;
     }
@@ -31,12 +31,13 @@
       }
 
       &__caption {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 20px;
+        margin-bottom: 7px;
       }
 
       &__desc {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 18px;
 
         br {

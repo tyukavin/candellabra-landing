@@ -8,12 +8,14 @@
 
     &-content {
       flex-wrap: wrap;
-      margin-bottom: 90px;
+      margin-bottom: 95px;
     }
 
     &-list {
       padding: 0 50px;
       margin-bottom: 70px;
+      width: 100%;
+      border-right: none;
 
       &__item {
         &:not(:last-child) {
@@ -21,15 +23,16 @@
   
           &::after {
             height: 50px;
-            left: 31px;
+            left: 40px;
           }
         }
       }
 
       &__img {
         min-width: 0;
-        width: 15%;
+        width: 30%;
         margin-right: 27px;
+        flex: none;
       }
 
       &__caption {
@@ -65,8 +68,8 @@
     }
 
     &-open {
-      border-radius: 0 0 55px 55px;
-      padding: 25px 0 50px;
+      border-radius: 0 0 35px 35px;
+      padding: 25px 26px 50px;
       margin-bottom: 0;
       text-align: center;
 
@@ -90,6 +93,10 @@
         font-size: 14px;
         line-height: 22px;
         margin-bottom: 50px;
+
+        &::after {
+          left: 32px;
+        }
 
         br {
           display: none;

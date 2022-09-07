@@ -33,9 +33,38 @@
   .leave-brand {
     margin-top: 0;
     padding-top: 10px;
+    padding-bottom: 70px;
+    background-color: #fff;
 
     .section-head {
       margin-bottom: 38px;
+    }
+
+    &-content {
+      min-height: 1000px;
+    }
+
+    &-slider {
+      flex-wrap: wrap;
+      justify-content: center;
+      transform: none;
+      bottom: auto;
+      top: 220px;
+
+      &__item {
+        width: 95%;
+        margin-bottom: 38px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      &__logo {
+        display: block;
+        margin: 0 auto;
+        width: 25%;
+      }
     }
   }
 
@@ -77,6 +106,10 @@
         }
       }
 
+      &__logos {
+        padding: 0 35px;
+      }
+
       &__text {
         font-size: 16px;
         line-height: 20px;
@@ -98,7 +131,10 @@
     &__art {
       position: static;
       display: block;
-      margin: 0 auto;
+
+      img {
+        margin: 0 auto;
+      }
     }
 
     &__caption {
@@ -107,6 +143,10 @@
       strong {
         font-size: 80px;
       }
+    }
+
+    &__desc {
+      font-size: 26px;
     }
   }
 
@@ -118,12 +158,13 @@
     &__item {
       width: 100%;
       border-radius: 70px;
-      margin-bottom: 12px;
+      margin-bottom: 17px;
+      box-shadow: 0px 16px 35px rgba(0, 0, 0, 0.1);
     }
 
     &__caption {
-      font-size: 18px;
-      margin-bottom: 25px;
+      font-size: 16px;
+      margin-bottom: 15px;
     }
 
     &__footer {
@@ -132,8 +173,7 @@
   }
 
   .provider {
-    padding: 20px 0;
-    padding-bottom: 40px;
+    padding: 120px 0 60px;
 
     &-content {
       padding: 25px 0;
@@ -145,13 +185,18 @@
       }
 
       &__caption {
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 13px;
       }
 
       &__desc {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 12px;
+        line-height: 18px;
+
+        br {
+          display: none;
+        }
       }
     }
 
@@ -161,7 +206,7 @@
   }
 
   .best-time {
-    padding: 20px;
+    padding: 20px 30px 31px;
     text-align: center;
 
     &-content {
@@ -171,7 +216,7 @@
         position: static;
         width: 80%;
         margin: 0 auto;
-        margin-top: -50px;
+        margin-top: -75px;
         margin-bottom: 24px;
       }
 
@@ -186,6 +231,10 @@
         line-height: 22px;
         margin-bottom: 33px;
 
+        br {
+          display: none;
+        }
+
         &::after {
           content: '';
           display: block;
@@ -197,6 +246,11 @@
           transform: rotate(-12deg);
         }
       }
+    }
+
+    .btn {
+      height: 42px;
+      padding: 11px 21px;
     }
   }
 }

@@ -1,12 +1,15 @@
 @media (max-width: 640px) {
   .footer {
-    min-height: 100vh;
+    min-height: 0;
+    padding-top: 93px;
+    padding-bottom: 89px;
 
     &__logo {
       display: none;
     }
 
     &-form {
+      margin: 0 auto;
       width: 90%;
       padding: 22px 15px 25px;
 
@@ -32,6 +35,12 @@
         }
       }
     }
+
+    .btn {
+      height: 34px;
+      padding: 9px 32px;
+      border-radius: 10px;
+    }
   }
 
   .form {
@@ -53,7 +62,7 @@
       &__text {
         margin-left: 0px;
         margin-top: 10px;
-        font-size: 12px;
+        font-size: 9px;
         line-height: 14px;
         text-align: center;
       }

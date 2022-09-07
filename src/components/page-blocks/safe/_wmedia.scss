@@ -11,6 +11,15 @@
       &-img {
         display: block;
         width: 60%;
+
+        &--one {
+          top: 5%;
+        }
+
+        &--two {
+          top: -31%;
+          right: -13%;
+        }
       }
 
       &__img {

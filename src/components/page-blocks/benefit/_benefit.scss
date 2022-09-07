@@ -138,6 +138,13 @@
       }
     }
 
+    &__logos {
+      display: flex;
+      margin-top: 26px;
+      justify-content: space-between;
+      padding: 0 65px;
+    }
+
     &__text {
       font-size: 20px;
       font-weight: 500;

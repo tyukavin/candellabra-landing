@@ -4,6 +4,13 @@
 
     &-content {
       margin-bottom: 0;
+
+      &__row {
+  
+        &--hidden {
+          display: none;
+        }
+      }
     }
 
     &__actions {

@@ -1,6 +1,10 @@
 @media (max-width: 640px) {
   .profit {
-    padding: 65px 0 20px;
+    padding: 65px 0;
+
+    .section-head {
+      margin-bottom: 22px;
+    }
 
     &-content {
       flex-wrap: wrap;
@@ -8,7 +12,11 @@
 
       &__item {
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 43px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
       }
 
       &__card {
