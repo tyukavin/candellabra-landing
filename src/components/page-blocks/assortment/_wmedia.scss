@@ -1,0 +1,32 @@
+@media (max-width: 640px) {
+  .assort {
+    padding: 40px 0 0;
+    margin-bottom: 0;
+
+    &-desc {
+      display: none;
+    }
+
+    &-content {
+      border-radius: 0;
+      margin-bottom: 0;
+
+      &__item {
+        gap: 0;
+        flex-wrap: wrap;
+
+        &:first-child {
+          margin-bottom: 0;
+
+          .assort-content__img:last-child {
+            display: none;
+          }
+        }
+      }
+
+      &__img {
+        width: 50%;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 29px;
+
+    &-caption {
+      width: 100%;
+      text-align: center;
+
+      &__desc {
+        color: #000;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+    }
+
+    &-video {
+      max-width: 100%;
+      width: 100%;
+      padding: 0 40px;
+
+      &__desc {
+        display: none;
+      }
+    }
+
+    &-actions {
+      text-align: center;
+
+      &__desc {
+        font-size: 9px;
+      }
+    }
+  }
+}

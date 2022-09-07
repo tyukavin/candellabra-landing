@@ -1,0 +1,13 @@
+@media (max-width: 640px) {
+  .store {
+    margin-bottom: 0;
+
+    &-content {
+      margin-bottom: 0;
+    }
+
+    &__actions {
+      display: none;
+    }
+  }
+}

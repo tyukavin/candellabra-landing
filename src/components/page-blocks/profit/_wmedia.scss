@@ -1,0 +1,31 @@
+@media (max-width: 640px) {
+  .profit {
+    padding: 65px 0 20px;
+
+    &-content {
+      flex-wrap: wrap;
+      padding: 0 45px;
+
+      &__item {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+
+      &__card {
+        margin-left: 15px;
+        padding: 17px;
+        font-size: 12px;
+        width: auto;
+        flex: none;
+
+        &-caption {
+          margin-bottom: 20px;
+        }
+      }
+
+      .card-price {
+        font-size: 20px;
+      }
+    }
+  }
+}
