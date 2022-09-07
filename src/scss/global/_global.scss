@@ -356,11 +356,23 @@ input {
     height: 64px;
     width: 64px;
 
-    &--video {
+    &--video,
+    &--article {
       &::after {
         height: 25px;
         width: 25px;
       }
     }
+  }
+
+  input {
+    border-radius: 7px;
+    border: 1px solid #888888;
+    height: 35px;
+    font-size: 14px;
+    padding: 5px 15px;
+    max-width: 70%;
+    width: 100%;
+    text-align: center;
   }
 }

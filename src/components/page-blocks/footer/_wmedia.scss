@@ -1,0 +1,62 @@
+@media (max-width: 640px) {
+  .footer {
+    min-height: 100vh;
+
+    &__logo {
+      display: none;
+    }
+
+    &-form {
+      width: 90%;
+      padding: 22px 15px 25px;
+
+      &__caption {
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 12px;
+
+        br {
+          display: none;
+        }
+      }
+  
+      &__desc {
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 33px;
+
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .form {
+
+    &-row {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      input {
+        margin-bottom: 10px;
+      }
+    }
+
+    &-actions {
+      margin-top: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      &__text {
+        margin-left: 0px;
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+      }
+    }
+  }
+}

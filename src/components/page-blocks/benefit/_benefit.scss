@@ -31,18 +31,18 @@
 .leave-brand {
   background-color: #F4F9FC;
   margin-top: -70px;
-  padding: 115px 0 100px;
+  padding: 155px 0 140px;
   overflow: hidden;
   position: relative;
 
   .section-head {
-    margin-bottom: 97px;
+    margin-bottom: 135px;
   }
 
   &-slider {
     position: absolute;
     height: 580px;
-    bottom: 55px;
+    bottom: 100px;
     display: flex;
     transform: translateX(12%);
     transition: transform 1.5s linear 0.1s;
@@ -66,7 +66,7 @@
 }
 
 .free-market {
-  padding: 80px 0 100px;
+  padding: 97px 0 0;
 
   .section-head {
     margin-bottom: 102px;
@@ -201,6 +201,8 @@
   justify-content: space-between;
   margin: 0 auto;
   width: 90%;
+  z-index: 1;
+  position: relative;
 
   &__item {
     background-color: #FFFFFF;
@@ -233,9 +235,10 @@
 
 .provider {
   background-color: #F4F9FC;
-  padding: 85px 0;
+  padding: 200px 0;
   position: relative;
   overflow: hidden;
+  margin-top: -100px;
 
   &-content {
     padding: 130px 0 250px;

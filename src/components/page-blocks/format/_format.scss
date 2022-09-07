@@ -1,10 +1,14 @@
 .format {
   margin-bottom: 100px;
 
+  .section-head {
+    margin-bottom: 82px;
+  }
+
   &-content {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 
     &__item {
       border-radius: 20px;
@@ -27,7 +31,7 @@
     display: flex;
     justify-content: center;
     gap: 170px;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 
     li {
       margin-bottom: 28px;
