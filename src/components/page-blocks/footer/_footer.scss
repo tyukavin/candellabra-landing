@@ -3,9 +3,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 336px;
-  padding-bottom: 174px;
-  min-height: 940px;
+  padding-top: 200px;
+  min-height: calc(100vh + 200px);
   position: relative;
   display: flex;
   align-items: center;
