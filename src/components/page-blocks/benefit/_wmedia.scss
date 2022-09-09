@@ -41,7 +41,7 @@
     }
 
     &-content {
-      min-height: 1000px;
+      min-height: 920px;
     }
 
     &-slider {
@@ -58,12 +58,25 @@
         &:last-child {
           margin-bottom: 0;
         }
+
+        &:nth-child(2) {
+          .leave-brand-slider__logo {
+            width: 12%;
+          }
+        }
+
+        &:nth-child(3) {
+          .leave-brand-slider__logo {
+            width: 20%;
+          }
+        }
       }
 
       &__logo {
         display: block;
         margin: 0 auto;
         width: 25%;
+        margin-top: -20px;
       }
     }
   }

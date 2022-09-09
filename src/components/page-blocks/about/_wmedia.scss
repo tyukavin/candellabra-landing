@@ -14,12 +14,36 @@
       margin-bottom: 28px;
     }
 
+    &__actions {
+      display: block;
+      text-align: center;
+      margin-top: 53px;
+
+      .btn {
+        height: 37px;
+        border-radius: 10px;
+        padding: 9px 23px;
+      }
+    }
+
     &-content {
       padding: 0 50px;
 
       &__row {
         flex-direction: column;
         gap: 35px;
+        margin-bottom: 35px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &--hidden {
+          height: 0;
+          max-height: 0;
+          overflow: hidden;
+          display: none;
+        }
       }
 
       &__item {

@@ -26,6 +26,12 @@
 
       &__img {
         width: 50%;
+
+        img {
+          height: 102%;
+          width: 102%;
+          object-fit: cover;
+        }
       }
     }
   }

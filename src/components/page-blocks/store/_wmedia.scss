@@ -6,9 +6,22 @@
       margin-bottom: 0;
 
       &__row {
+        flex-wrap: wrap;
   
         &--hidden {
           display: none;
+        }
+      }
+
+      &__img {
+
+        &:nth-child(1),
+        &:nth-child(2) {
+          flex: 0 0 calc(50% - 7.5px);
+        }
+
+        &:nth-child(3) {
+          flex: 1 1 100%;
         }
       }
     }

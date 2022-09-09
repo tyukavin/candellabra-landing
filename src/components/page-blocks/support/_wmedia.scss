@@ -31,6 +31,10 @@
 
       &__art {
         width: 20%;
+
+        &--three {
+          display: none;
+        }
       }
     }
   }

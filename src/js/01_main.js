@@ -60,6 +60,17 @@
       });
     });
 
+    const btnMoreAbout = document.querySelector(".js-btn-more-about");
+    const rowVisibleAbout = document.querySelectorAll(".js-row-visible-about");
+
+    btnMoreAbout.addEventListener("click", function() {
+
+      this.setAttribute("disabled", "disabled");
+      rowVisibleAbout.forEach(elem => {
+        elem.classList.toggle("about-content__row--hidden");
+      });
+    });
+
   });
 
 })();

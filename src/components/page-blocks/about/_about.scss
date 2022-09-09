@@ -16,6 +16,10 @@
     margin-bottom: 97px;
   }
 
+  &__actions {
+    display: none;
+  }
+
   &-content {
     display: flex;
     flex-direction: column;
