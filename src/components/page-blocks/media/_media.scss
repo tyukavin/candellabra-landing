@@ -1,6 +1,6 @@
 .media {
   background-color: #F4F9FC;
-  padding-bottom: 110px;
+  padding-bottom: 90px;
   overflow: hidden;
 
   .section-head {
@@ -38,35 +38,6 @@
           z-index: 3;
         }
       }
-    }
-  }
-
-  &-pr {
-    border-radius: 110px;
-    border: 1px solid #000;
-    padding: 85px 0;
-    padding-left: 560px;
-    margin: 0 auto;
-    position: relative;
-    width: 85%;
-
-    &__img {
-      position: absolute;
-      left: 160px;
-      bottom: 35px;
-    }
-
-    &__caption {
-      font-size: 40px;
-      font-weight: 600;
-      line-height: 50px;
-      margin-bottom: 20px;
-    }
-
-    &__desc {
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 30px;
     }
   }
 }

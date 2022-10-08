@@ -37,12 +37,6 @@
       .setClassToggle(".js-anim-4", "anim-4")
       .addTo(controller);
 
-    const sceneSafe = document.querySelector(".safe-content");
-    const parallaxInstance1 = new Parallax(sceneSafe);
-
-    const sceneSupport = document.querySelector(".support-content");
-    const parallaxInstance2 = new Parallax(sceneSupport);
-
     const myModal = new HystModal({
       linkAttributeName: "data-hystmodal",
     });

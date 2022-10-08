@@ -68,35 +68,6 @@
     }
   }
 
-  &-avto {
-    border: 1px solid #000;
-    border-radius: 110px;
-    padding: 100px 0;
-    padding-left: 625px;
-    width: 90%;
-    margin: 0 auto;
-    position: relative;
-
-    &__img {
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-54%);
-    }
-
-    &__caption {
-      font-size: 40px;
-      font-weight: 600;
-      line-height: 50px;
-      margin-bottom: 22px;
-    }
-
-    &__desc {
-      font-size: 20px;
-      line-height: 30px;
-    }
-  }
-
   &-lines {
     position: absolute;
     top: 0;
