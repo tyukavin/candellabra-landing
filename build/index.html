@@ -72,7 +72,7 @@
         </div>
         <div class="store-content">
           <div class="store-content__row wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s">
-            <picture>
+            <picture class="store-content__img-main">
               <source srcset="img/store-main.webp" type="image/webp">
               <img src="img/store-main.jpg" alt="Наш магазин">
             </picture>
@@ -386,13 +386,6 @@
           </div>
 
           <div class="free-market-content__item free-market-content__item--three wow animate__fadeIn" data-wow-offset="100" data-wow-duration="2s" data-wow-delay="0.6s">
-            <div class="free-market-content__text">
-              Закрытые магазины<br>
-              по России
-            </div>
-            <div class="free-market-content__cus">
-              63 магазина
-            </div>
             <div class="free-market-content__logos">
               <picture>
                 <source srcset="img/zara-logo-mini.webp" type="image/webp">
@@ -407,6 +400,15 @@
                 <img src="img/ikea-logo-mini.png" alt="Ikea Logo">
               </picture>
             </div>
+            
+            <div class="free-market-content__cus">
+              63 магазина
+            </div>
+
+            <div class="free-market-content__text">
+              Закрытые магазины по России
+            </div>
+            
           </div>
         </div>
 
@@ -636,6 +638,17 @@
             </div>
           </div>
         </div>
+
+        <div class="profit-action">
+          <div class="profit-action__title">
+            Хотите узнать больше про<br>финансы, продажи и прибыль?
+          </div>
+          <div class="profit-action__button">
+            <button class="btn btn--xs btn--primary" data-hystmodal="#formModal">
+              <span>Задать вопрос специалисту</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -651,82 +664,48 @@
 
         <div class="platform-content">
           <div class="platform-content__wrap">
-            <div class="platform-lines">
-              <svg class="platform-lines__item" id="platform-line-one" width="223" height="248" viewBox="0 0 223 248" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
-                <path d="M1 18.3181C24.5878 6.00408 79.0576 -11.2356 108.234 18.3181C144.704 55.2602 81.5616 117.163 93.5369 161.094C105.512 205.026 161.579 247.459 222 245.962" stroke="#FFE477" stroke-width="4" class="js-anim-1"></path>
-                <style data-made-with="vivus-instant">.anim-1{stroke-dasharray:429 431;stroke-dashoffset:430;animation:lxAfFspd_draw 2000ms linear 0ms forwards;}@keyframes lxAfFspd_draw{100%{stroke-dashoffset:0;}}@keyframes lxAfFspd_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style>
-              </svg>
 
-              <svg class="platform-lines__item" id="platform-line-two" width="301" height="143" viewBox="0 0 301 143" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
-                <path d="M300.5 4.00291C279.333 -1.33043 228 8.40291 192 90.0029C156 171.603 49.6667 136.001 1 108" stroke="#F2CF45" stroke-width="4" class="js-anim-2"></path>
-                <style data-made-with="vivus-instant">.anim-2{stroke-dasharray:367 369;stroke-dashoffset:368;animation:CFpsCaXI_draw 2000ms linear 0ms forwards;}@keyframes CFpsCaXI_draw{100%{stroke-dashoffset:0;}}@keyframes CFpsCaXI_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style>
-              </svg>
-
-              <svg class="platform-lines__item" id="platform-line-three" width="260" height="134" viewBox="0 0 260 134" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
-                <path d="M1 3.49451C137.5 -14.5018 114 178.498 259 120.495" stroke="#FFE57D" stroke-width="4" class="js-anim-3"></path>
-                <style data-made-with="vivus-instant">.anim-3{stroke-dasharray:310 312;stroke-dashoffset:311;animation:HuPJMxma_draw 2000ms linear 0ms forwards;}@keyframes HuPJMxma_draw{100%{stroke-dashoffset:0;}}@keyframes HuPJMxma_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style>
-              </svg>
-
-              <svg class="platform-lines__item" id="platform-line-four" width="294" height="232" viewBox="0 0 294 232" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
-                <path d="M293 3.00112C262.833 0.167782 199.7 7.80111 188.5 61.0011C174.5 127.501 169.5 183 123 214.5C90.8205 236.299 26.5 228.333 0.5 225.5" stroke="url(#paint0_linear_2018_1320)" stroke-width="4" class="js-anim-4"></path>
-                <defs>
-                  <linearGradient id="paint0_linear_2018_1320" x1="171.41" y1="74.7487" x2="229.84" y2="128.782" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#A5FC4E"></stop>
-                    <stop offset="1" stop-color="#76D929"></stop>
-                  </linearGradient>
-                </defs>
-                <style data-made-with="vivus-instant">.anim-4{stroke-dasharray:428 430;stroke-dashoffset:429;animation:XfBBuCbX_draw 2000ms linear 0ms forwards;}@keyframes XfBBuCbX_draw{100%{stroke-dashoffset:0;}}@keyframes XfBBuCbX_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style>
-              </svg>
-            </div>
+            <picture class="platform-content__img">
+              <source srcset="img/chip.webp" type="image/webp">
+              <img src="img/chip.png" alt="Наш магазин">
+            </picture>
 
             <div class="platform-list">
               <div class="platform-list__item">
-                <div class="platform-list__circle platform-list__circle--yellow"></div>
                 <div class="platform-list__caption">Личный<br>кабинет</div>
               </div>
 
               <div class="platform-list__item">
-                <div class="platform-list__circle platform-list__circle--yellow"></div>
                 <div class="platform-list__caption">Магазин</div>
               </div>
 
               <div class="platform-list__item">
-                <div class="platform-list__circle platform-list__circle--yellow"></div>
                 <div class="platform-list__caption">Поставщики,<br>контрагенты</div>
               </div>
 
               <div class="platform-list__item">
-                <div class="platform-list__circle platform-list__circle--green"></div>
                 <div class="platform-list__caption">База<br>остатков</div>
               </div>
             </div>
 
             <div class="platform-list">
               <div class="platform-list__item">
-                <div class="platform-list__circle platform-list__circle--yellow"></div>
                 <div class="platform-list__caption">CRM<br>система</div>
               </div>
 
               <div class="platform-list__item">
-                <div class="platform-list__circle platform-list__circle--green"></div>
                 <div class="platform-list__caption">Логистика</div>
               </div>
 
               <div class="platform-list__item">
-                <div class="platform-list__circle platform-list__circle--yellow"></div>
                 <div class="platform-list__caption">Центральная<br>компания</div>
               </div>
 
               <div class="platform-list__item">
-                <div class="platform-list__circle platform-list__circle--yellow"></div>
                 <div class="platform-list__caption">Склад</div>
               </div>
             </div>
           </div>
-          <picture class="platform-content__img">
-            <source srcset="img/platform-main.webp" type="image/webp">
-            <img src="img/platform-main.png" alt="IT - платформа">
-          </picture>
         </div>
       </div>
     </div>
@@ -854,21 +833,23 @@
 
         <div class="dynamic-open">
           <picture class="dynamic-open__img">
-            <source srcset="img/dyn-open.webp" type="image/webp">
-            <img src="img/dyn-open.png" alt="Откройте бизнес">
+            <source srcset="img/dynamic-open.webp" type="image/webp">
+            <img src="img/dynamic-open.png" alt="Откройте бизнес">
           </picture>
-          <div class="dynamic-open__caption">
-            Откройте готовый,<br>
-            медийный, трендовый,<br>
-            современный бизнес
-          </div>
-          <div class="dynamic-open__desc">
-            Оставьте заявку, мы вышлем вам материалы<br>и затем свяжемся для обсуждения деталей
-          </div>
-          <div class="dynamic-open__actions">
-            <button class="btn btn--xs btn--primary" data-hystmodal="#formModal">
-              <span>Получить материалы</span>
-            </button>
+          <div class="dynamic-open__content">
+            <div class="dynamic-open__caption">
+              Откройте готовый,<br>
+              медийный, трендовый,<br>
+              современный бизнес
+            </div>
+            <div class="dynamic-open__desc">
+              Оставьте заявку, мы вышлем вам материалы<br>и затем свяжемся для обсуждения деталей
+            </div>
+            <div class="dynamic-open__actions">
+              <button class="btn btn--xs btn--primary" data-hystmodal="#formModal">
+                <span>Получить материалы</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -967,7 +948,7 @@
               <div class="link-open link-open--video"></div>
               <picture class="about-content__img">
                 <source srcset="img/about-1.webp" type="image/webp">
-                <img src="img/about-1.png" alt="Канал “Хайповый бизнес”">
+                <img src="img/about-1.jpg" alt="Канал “Хайповый бизнес”">
               </picture>
               <div class="about-content__caption">Канал “Хайповый бизнес”</div>
               <div class="about-content__desc">
@@ -980,7 +961,7 @@
               <div class="link-open link-open--video"></div>
               <picture class="about-content__img">
                 <source srcset="img/about-2.webp" type="image/webp">
-                <img src="img/about-2.png" alt="Канал “Москва 24”">
+                <img src="img/about-2.jpg" alt="Канал “Москва 24”">
               </picture>
               <div class="about-content__caption">Канал “Москва 24”</div>
               <div class="about-content__desc">
@@ -993,7 +974,7 @@
               <div class="link-open link-open--article"></div>
               <picture class="about-content__img">
                 <source srcset="img/about-3.webp" type="image/webp">
-                <img src="img/about-3.png" alt="Москва онлайн msk1.ru">
+                <img src="img/about-3.jpg" alt="Москва онлайн msk1.ru">
               </picture>
               <div class="about-content__caption">Москва онлайн msk1.ru</div>
               <div class="about-content__desc">
@@ -1008,37 +989,8 @@
             <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
               <div class="link-open link-open--article"></div>
               <picture class="about-content__img">
-                <source srcset="img/about-4.webp" type="image/webp">
-                <img src="img/about-4.png" alt="Журнал “Москвич MAG”">
-              </picture>
-              <div class="about-content__caption">Журнал “Москвич MAG”</div>
-            </a>
-
-            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
-              <div class="link-open link-open--video"></div>
-              <picture class="about-content__img">
-                <source srcset="img/about-5.webp" type="image/webp">
-                <img src="img/about-5.png" alt="Канал “ПРО БИЗНЕС”">
-              </picture>
-              <div class="about-content__caption">Канал “ПРО БИЗНЕС”</div>
-            </a>
-
-            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
-              <div class="link-open link-open--article"></div>
-              <picture class="about-content__img">
-                <source srcset="img/about-6.webp" type="image/webp">
-                <img src="img/about-6.png" alt="“Открытый франчайзинг”">
-              </picture>
-              <div class="about-content__caption">“Открытый франчайзинг”</div>
-            </a>
-          </div>
-
-          <div class="about-content__row about-content__row--hidden js-row-visible-about wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s">
-            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
-              <div class="link-open link-open--article"></div>
-              <picture class="about-content__img">
                 <source srcset="img/about-7.webp" type="image/webp">
-                <img src="img/about-7.png" alt="Журнал “Диалог”">
+                <img src="img/about-7.jpg" alt="Журнал “Диалог”">
               </picture>
               <div class="about-content__caption">Журнал “Диалог”</div>
             </a>
@@ -1047,7 +999,7 @@
               <div class="link-open link-open--article"></div>
               <picture class="about-content__img">
                 <source srcset="img/about-8.webp" type="image/webp">
-                <img src="img/about-8.png" alt="РБК Компании">
+                <img src="img/about-8.jpg" alt="РБК Компании">
               </picture>
               <div class="about-content__caption">РБК Компании</div>
             </a>
@@ -1056,15 +1008,44 @@
               <div class="link-open link-open--article"></div>
               <picture class="about-content__img">
                 <source srcset="img/about-9.webp" type="image/webp">
-                <img src="img/about-9.png" alt="Журнал “designers from russia”">
+                <img src="img/about-9.jpg" alt="Журнал “designers from russia”">
               </picture>
               <div class="about-content__caption">Журнал “designers from russia”</div>
+            </a>
+          </div>
+
+          <div class="about-content__row about-content__row--hidden js-row-visible-about wow animate__fadeIn" data-wow-offset="150" data-wow-duration="1.5s">
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--article"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-4.webp" type="image/webp">
+                <img src="img/about-4.jpg" alt="Журнал “Москвич MAG”">
+              </picture>
+              <div class="about-content__caption">Журнал “Москвич MAG”</div>
+            </a>
+
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--video"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-5.webp" type="image/webp">
+                <img src="img/about-5.jpg" alt="Канал “ПРО БИЗНЕС”">
+              </picture>
+              <div class="about-content__caption">Канал “ПРО БИЗНЕС”</div>
+            </a>
+
+            <a href="#" class="about-content__item" target="_blank" title="Открыть в новой вкладке">
+              <div class="link-open link-open--article"></div>
+              <picture class="about-content__img">
+                <source srcset="img/about-6.webp" type="image/webp">
+                <img src="img/about-6.jpg" alt="“Открытый франчайзинг”">
+              </picture>
+              <div class="about-content__caption">“Открытый франчайзинг”</div>
             </a>
           </div>
         </div>
 
         <div class="about__actions">
-          <button class="btn btn--more-xs js-btn-more-about">Показать ещё</button>
+          <button class="btn btn--more-xs js-btn-more-about">посмотреть больше новостей</button>
         </div>
       </div>
     </div>
@@ -1095,6 +1076,37 @@
     </form>
   </div>
 </footer>
+
+<div class="personal">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="personal__content">
+          <picture class="personal__img">
+            <source srcset="img/footer-about.webp" type="image/webp">
+            <img src="img/footer-about.png" alt="Ерёмин Юрий">
+          </picture>
+          <div class="personal__text">
+            <div class="personal__title">
+              Остались вопросы?
+            </div>
+            <div class="personal__subtitle">
+              Уточните детали у сооснователя<br>
+              Candellabra HOME<br>
+              <strong>Ерёмина Юрия</strong>
+            </div>
+            <div class="personal__phone">
+              телефон<br>
+              <strong>
+                <a href="tel:+7 963 346 70 20">+7 963 346 70 20</a>
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="hystmodal" id="formModal" aria-hidden="true">
   <div class="hystmodal__wrap">

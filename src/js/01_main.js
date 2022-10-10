@@ -20,22 +20,6 @@
     new ScrollMagic.Scene({triggerElement: ".leave-brand-slider"})
       .setClassToggle(".leave-brand-slider", "active")
       .addTo(controller);
-    
-    new ScrollMagic.Scene({triggerElement: ".platform-lines"})
-      .setClassToggle(".js-anim-1", "anim-1")
-      .addTo(controller);
-    
-    new ScrollMagic.Scene({triggerElement: ".platform-lines"})
-      .setClassToggle(".js-anim-2", "anim-2")
-      .addTo(controller);
-    
-    new ScrollMagic.Scene({triggerElement: ".platform-lines"})
-      .setClassToggle(".js-anim-3", "anim-3")
-      .addTo(controller);
-    
-    new ScrollMagic.Scene({triggerElement: ".platform-lines"})
-      .setClassToggle(".js-anim-4", "anim-4")
-      .addTo(controller);
 
     const myModal = new HystModal({
       linkAttributeName: "data-hystmodal",

@@ -19,6 +19,12 @@
         overflow: hidden;
       }
     }
+
+    &__img-main {
+      border-radius: 20px;
+      overflow: hidden;
+      width: 100%;
+    }
   }
 
   &__actions {
