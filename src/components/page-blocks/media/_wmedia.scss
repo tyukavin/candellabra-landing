@@ -9,6 +9,7 @@
 
     &-content {
       flex-wrap: wrap;
+      margin-bottom: 10px;
 
       &__item {
         width: 100%;
@@ -46,7 +47,7 @@
   .what {
     width: 100%;
     padding: 28px 0;
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 20px 20px;
     margin-bottom: 28px;
     background-color: #F4F9FC;
 

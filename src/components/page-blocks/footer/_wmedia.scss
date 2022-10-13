@@ -64,4 +64,41 @@
       }
     }
   }
+
+  .personal {
+    padding-top: 55px;
+
+    &__content {
+      flex-direction: column;
+    }
+
+    &__img {
+      order: 2;
+      width: 100%;
+    }
+
+    &__text {
+      order: 1;
+      text-align: center;
+      margin-bottom: 37px;
+    }
+
+    &__title {
+      font-size: 22px;
+      margin-bottom: 16px;
+      font-weight: 700;
+      line-height: 27px;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: 41px;
+    }
+
+    &__phone {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
 }

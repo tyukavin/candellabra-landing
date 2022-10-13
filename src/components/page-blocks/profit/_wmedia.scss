@@ -1,6 +1,7 @@
 @media (max-width: 640px) {
   .profit {
-    padding: 65px 0;
+    padding-top: 0;
+    padding-bottom: 55px;
 
     .section-head {
       margin-bottom: 22px;
@@ -9,6 +10,7 @@
     &-content {
       flex-wrap: wrap;
       padding: 0 45px;
+      margin-bottom: 75px;
 
       &__item {
         width: 100%;
@@ -33,6 +35,30 @@
 
       .card-price {
         font-size: 20px;
+      }
+    }
+
+    &-action {
+      padding: 0 40px;
+
+      &__title {
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-bottom: 27px;
+
+        &::after {
+          display: none;
+        }
+
+        br {
+          display: none;
+        }
+      }
+
+      .btn {
+        padding: 15px 22px;
+        height: 50px;
       }
     }
   }

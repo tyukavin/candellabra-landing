@@ -284,6 +284,7 @@ input {
 .container {
   position: relative;
   margin: 0 auto;
+  padding: 0 15px;
   max-width: 1440px;
   width: 100%;
 }
@@ -291,10 +292,6 @@ input {
 .row {
   margin: 0 -15px;
   display: flex;
-}
-
-[class^="col"] {
-  padding: 0 15px;
 }
 
 .col {
@@ -378,5 +375,10 @@ input {
 
   .main {
     overflow: hidden;
+  }
+
+  .hystmodal__window .hystmodal__close {
+    filter: brightness(0) invert(1);
+    top: -25px;
   }
 }
